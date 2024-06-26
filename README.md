@@ -1,2 +1,2 @@
 # XGBoost-customer-churn
- Boosted Trees Classifier for predicting customer churn in a company.
+ XGBoost Classifier for predicting customer churn in a company using the IBM telco customer churn dataset. Initially correctly classified 91.2% and 51.8% as customers who did not leave and the ones who did respectively. Since the accuracy of classification of customers who left is quite low, I used Grid Search CV to optimize the hyperparameters lambda, alpha and gamma. In the end ran the model with optimized hyperparameters on the testing data and increaed the accuracy of classification of customers who left to 83.2%
